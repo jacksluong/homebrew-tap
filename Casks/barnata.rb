@@ -1,6 +1,6 @@
 cask "barnata" do
-  version "0.2.1"
-  sha256 "6ddf19f1c74097a93fb907a61651ed528099db7c5ccb72fd9987c6fd992944be"
+  version "0.3.0"
+  sha256 "1de0bc385edfd3baf0e612ae04bd12190822c3facc0285c5261566066b85f590"
 
   url "https://github.com/jacksluong/barnata/releases/download/v#{version}/Barnata-#{version}.zip"
   name "Barnata"
@@ -12,11 +12,11 @@ cask "barnata" do
 
   app "Barnata.app"
 
-  uninstall launchctl: "io.jackyluong.barnata.daemon",
-            quit:      "io.jackyluong.barnata"
+  uninstall quit: "io.jackyluong.barnata"
 
   zap trash: [
     "/Library/Logs/Barnata",
+    "~/Library/Logs/Barnata",
     "~/.config/barnata",
   ]
 end
