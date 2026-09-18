@@ -1,9 +1,17 @@
 # homebrew-tap
 
-Homebrew tap for [Barnata](https://github.com/jacksluong/barnata).
+Homebrew tap for my own packages.
+
+```sh
+brew tap jacksluong/tap
+```
+
+## Casks
+
+| Cask | Description |
+| --- | --- |
+| [barnata](https://github.com/jacksluong/barnata) | Menu bar app that runs and controls kanata |
 
 ```sh
 brew install --cask jacksluong/tap/barnata
 ```
-
-`Scripts/release.sh` in the Barnata repo bumps `Casks/barnata.rb` after a release. Commit and push it here to publish.
