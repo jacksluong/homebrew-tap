@@ -1,6 +1,6 @@
 cask "barnata" do
-  version "0.3.4"
-  sha256 "557e43f0da78b2d48f2424a1d4753e43c79a3b6cee36a91b205237abe367cad0"
+  version "0.4.0"
+  sha256 "f0b548959e11734ce69b843a5539549f62dfa0c3dbafdc62af443bd0fb886f2a"
 
   url "https://github.com/jacksluong/barnata/releases/download/v#{version}/Barnata-#{version}.zip"
   name "Barnata"
@@ -12,7 +12,7 @@ cask "barnata" do
 
   app "Barnata.app"
 
-  uninstall quit: "io.jackyluong.barnata"
+  uninstall quit: "com.jackyluong.barnata"
 
   zap trash: [
     "/Library/Logs/Barnata",
