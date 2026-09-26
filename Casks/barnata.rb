@@ -1,6 +1,6 @@
 cask "barnata" do
-  version "0.4.0"
-  sha256 "f0b548959e11734ce69b843a5539549f62dfa0c3dbafdc62af443bd0fb886f2a"
+  version "0.4.1"
+  sha256 "5f6a91afb3dbf4136f7be5967c3e26f1ec34ca7a9a54e93f0a12e85b8dc1af4a"
 
   url "https://github.com/jacksluong/barnata/releases/download/v#{version}/Barnata-#{version}.zip"
   name "Barnata"
